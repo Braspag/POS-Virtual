@@ -8,7 +8,57 @@ language_tabs:
 search: true
 ---
 
-# Criando um novo pedido 
+# Criar Grupos
+
+É necessário criar pelo menos um grupo para que as vendas sejam realizadas no POS Virtual. O grupo determina quais são as pemissões que um determinado operador possui. 
+
+Para criar um grupo, acesse Configurações > Grupos, e preencha corretamente os campos identificados abaixo:
+
+<img src="/images/criargrupos.PNG">
+
+|Campo|Descrição|Obrigatório?|
+|-----|---------|------------|
+|Nome|Nome do grupo|SIM|
+|Permissões|selecione as permissões que este grupo poderá ter|SIM|
+
+A lista de permissões são:
+
+|Permissão|
+|---------|
+|Alterar data da próxima cobrança da recorrência|
+|Alterar data fim da recorrência|
+|Alterar dia da recorrência|
+|Alterar periodicidade da recorrência|
+|Alterar valor da recorrência|
+|Ativar/Desativar pedido de recorrência|
+|Cancelar Transação|
+|Cancelar Transação via Relatório|
+|Cancelar Transaç&ões De Todos Usuários|
+|Capturar Transação|
+|Capturar Transação via Relatório|
+|Criar Transação|
+|Estornar Transação via Relatório|
+|Visualizar Pedidos de Recorrência|
+|Visualizar suas Transaç&ões|
+|Visualizar Transaç&ões Recorrentes|
+
+# Criar Operadores
+
+Através do usuário "gerente", é possível criar usuários operadores, que terão permissão para realizar novas vendas. 
+
+Acesse Configurações > Operadores, e preencha corretamente o forumulário abaixo. Assim que os dados forem submetidos, um e-mail com as instruções será enviado no endereço cadastrado.
+
+<img src="/images/cadastraroperador.PNG">
+
+|Campo|Descrição|Obrigatório?|
+|-----|---------|------------|
+|Usuário|username a ser utilizado para acessar o POS|SIM|
+|Nome|Nome do operador|SIM|
+|E-mail|E-mail do operador|SIM|
+|Grupo|Grupo de permissão que o operador pertence|SIM| 
+|Lojas|Lojas para as quais o operador fará as vendas|SIM| 
+
+# Realizar Venda
 
 Para a criação de um novo pedido, o usuário deverá acessar a tela através do menu:  POS Virtual -> Realizar Venda
 
