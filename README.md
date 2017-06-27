@@ -1,5 +1,5 @@
 
-<table width='100%' border="0"><tr><td align="center"><img src="Cartao-Protegido-ENG/source/image/logo.PNG" border="0"></td></tr></table>
+<table width='100%' border="0"><tr><td align="center"><img src="/POS-Virtual/source/images/logo.PNG" border="0"></td></tr></table>
 
 # Criar Grupos
 
@@ -7,7 +7,7 @@
 
 Para criar um grupo, acesse Configurações > Grupos, e preencha corretamente os campos identificados abaixo:
 
-<img src="/images/criargrupos.PNG">
+<img src="/POS-Virtual/source/criargrupos.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -41,7 +41,7 @@ Através do usuário "gerente", é possível criar usuários operadores, que ter
 
 Acesse Configurações > Operadores, e preencha corretamente o forumulário abaixo. Assim que os dados forem submetidos, um e-mail com as instruções será enviado no endereço cadastrado.
 
-<img src="/images/cadastraroperador.PNG">
+<img src="/POS-Virtual/source/cadastraroperador.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -55,7 +55,7 @@ Acesse Configurações > Operadores, e preencha corretamente o forumulário abai
 
 Para a criação de um novo pedido, o usuário deverá acessar a tela através do menu:  POS Virtual -> Realizar Venda
 
-<img src="/images/menucriarpedido.PNG">
+<img src="/POS-Virtual/source/menucriarpedido.PNG">
 
 ## Passo a Passo 
 
@@ -72,7 +72,7 @@ Neste passo é possível informar os dados do pedido.
 O campo de e-mail é opcional, e pode ser configurado para ser exibido na tela de criação de um novo pedido no momento do setup do seu POS Virtual. 
 Abaixo a descrição e obrigatoriedade de cada campo. 
 
-<img src="/images/camposdadosdopedido.PNG">
+<img src="/POS-Virtual/source/camposdadosdopedido.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -87,7 +87,7 @@ Neste passo é possível informar os dados do endereço de entrega do pedido.
 Os campos com os dados de endereço de entrega são opcionais, e podem ser configurados para serem exibidos na tela de criação de um novo pedido no momento do setup do seu POS Virtual.  
 Abaixo a descrição e obrigatoriedade de cada campo.  
 
-<img src="/images/camposdadosendereco.PNG">
+<img src="/POS-Virtual/source/camposdadosendereco.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -119,7 +119,7 @@ Nesta opção uma recorrência será agendada de acordo com as informações for
 
 O fim de uma recorrência dependerá da data fim informada, caso não seja informada nenhuma data, a mesma tem o perfil de uma recorrência “infinita”. 
  
-<img src="/images/dadosdarecorrencia1.PNG">
+<img src="/POS-Virtual/source/dadosdarecorrencia1.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -133,7 +133,7 @@ Nesta opção uma recorrência será criada e a primeira recorrência será cobr
 
 O fim de uma recorrência dependerá da data fim informada, caso não seja informada nenhuma data, a mesma tem o perfil de uma recorrência “infinita”. 
 
-<img src="/images/dadosdarecorrencia2.PNG">
+<img src="/POS-Virtual/source/dadosdarecorrencia2.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -148,7 +148,7 @@ Nesta opção uma recorrência será criada e a primeira recorrência será cobr
 
 O fim de uma recorrência dependerá da data fim informada, caso não seja informada nenhuma data, a mesma tem o perfil de uma recorrência “infinita”. 
 
-<img src="/images/dadosdarecorrencia3.PNG">
+<img src="/POS-Virtual/source/dadosdarecorrencia3.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -163,7 +163,7 @@ Neste passo é possível informar os dados do endereço de cobrança do pedido.
 
 Os campos com os dados de endereço de cobrança são opcionais, e podem ser configurados para serem exibidos na tela de criação de um novo pedido no momento do setup do seu POS Virtual. 
 
-<img src="/images/camposdadosenderecocobranca.PNG">
+<img src="/POS-Virtual/source/camposdadosenderecocobranca.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -182,7 +182,7 @@ Neste passo é possível informar os dados do pagamento do pedido.
 
 Para o campo meio de pagamento, as bandeiras estarão disponíveis de acordo com as opções de meios de pagamentos configurados para o seu POS Virtual. 
 
-<img src="/images/dadospagamento.PNG">
+<img src="/POS-Virtual/source/dadospagamento.PNG">
 
 |Campo|Descrição|Obrigatório?|
 |-----|---------|------------|
@@ -202,13 +202,13 @@ Caso o seu POS Virtual esteja configurado com a opção de “captura automátic
 
 O botão “limpar”, limpa todos os campos da tela de criação de um novo pedido. 
 
-<img src="/images/btnpagarlimpar.PNG">
+<img src="/POS-Virtual/source/btnpagarlimpar.PNG">
 
 # Lista de pedidos
 
 Conforme imagem abaixo, nesta sessão serão exibidos todos os pedidos realizados pelo operador: 
 
-<img src="/images/listapedidos.PNG">
+<img src="/POS-Virtual/source/listapedidos.PNG">
 
 Acima da lista de pedidos, existem duas legendas com informações dos totais. Estas representam o valor total pago e o valor total pendente de captura. 
 
@@ -230,7 +230,7 @@ Esta ação ficará disponível para o usuário caso o seu POS Virtual no moment
 
 Caso a opção seja por captura parcial no setup do seu POS Virtual, o usuário ao clicar no link “Capturar”, a tela abaixo será exibida, deixando assim o usuário escolher o valor a ser capturado. 
 
-<img src="/images/capturar.PNG">
+<img src="/POS-Virtual/source/capturar.PNG">
 
 <aside class="notice">Obs.: A ação de capturar só poderá ocorrer uma única vez, então caso seja realizada uma captura parcial conforme exemplo acima, os outros R$ 50,00 restantes não poderá ser mais capturado, disponibilizando novamente esses R$ 50,00 no limite do cliente. </aside>
 
@@ -249,7 +249,7 @@ Esta ação poderá ser tomada para o usuário cancelar um pedido, sendo assim o
 
 Será exibida uma tela de confirmação do cancelamento conforme imagem abaixo: 
 
-<img src="/images/cancelar.PNG">
+<img src="/POS-Virtual/source/cancelar.PNG">
 
 ## Imprimir 
 
@@ -257,7 +257,7 @@ Esta ação poderá ser tomada para o usuário imprimir um comprovante com os da
 
 A impressão terá os detalhes do pedido conforme imagem abaixo: 
 
-<img src="/images/imprimir.PNG">
+<img src="/POS-Virtual/source/imprimir.PNG">
 
 
 
